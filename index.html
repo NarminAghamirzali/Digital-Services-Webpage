@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="img/logo/rih.svg">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>RIH Portal Demo</title>
+</head>
+<body>
+    <div class="starting">
+        <img src="img/logo/rihis-final-logo.svg" alt="">
+        <img src="img/wall/roll.svg" alt="">
+    </div>
+        <header id="desktop-header">
+            <div class="header-container">
+                <div class="header-logo">
+                    <a href="index.html"><img src="img/logo/rihis-final-logo.svg" alt=""></a>
+                </div>
+                <div class="header-content">
+                    <nav class="header-nav">
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Xidmətlər</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">E-iştirakçılıq</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Vətəndaş qəbulu</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Məlumatlandırma</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link dropdown" href="#">Faydalı 
+                                <i class='bx bxs-chevron-down' style='color:#022345'  ></i>
+                              </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="about.html">Haqqımızda</a></li>
+                                    <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                                    <li><a class="dropdown-item" href="#">Təlimatlandırma</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="search-login">
+                        <div class="search-btn">
+                            <i class='bx bx-search' style='color:#022345;' ></i>
+                        </div>
+                        <div class="login">
+                            <a href="">
+                                <img src="img/logo/asan.svg" alt="">
+                                Daxil ol
+                            </a>
+                        </div>
+                        <div class="hamburger-menu">
+                            <i class='bx bx-menu' style='color:#222222'  ></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-search">
+                <div class="search-top">
+                    <p>Axtarış</p>
+                    <div class="search-close">
+                        <i class='bx bx-x' style='color:#022345'  ></i>
+                    </div>
+                </div>
+                <div class="search-input-container">
+                    <div class="search-input">
+                        <i class='bx bx-search' style='color:#b0b7c3'  ></i>
+                        <input type="text" placeholder="Axtar" class="input">
+                        <span class="input-line"></span>
+                        <button>E-iştirakçılıq</button>
+                        <button>Məlumatlandırma</button>
+                    </div>
+                </div>
+                <div class="search-result"></div>
+            </div>
+        </header>
+        <header id="mobile-header">
+            <div class="mobile-header-top">
+                <div class="login">
+                    <a href="">
+                        <img src="img/logo/asan.svg" alt="">
+                        Daxil ol
+                    </a>
+                </div>
+                <div class="mobile-close">
+                    <i class='bx bx-x' style='color:#022345'  ></i>
+                </div>
+            </div>
+            <div class="mobile-header-bottom">
+                <nav class="mobile-header-nav">
+                    <ul>
+                        <li><a href="about.html">Haqqımızda</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="">Təlimatlandırma</a></li>
+                        <li><a href="">Xidmətlər</a></li>
+                        <li><a href="">E-iştirakçılıq</a></li>
+                        <li><a href="">Vətəndaş qəbulu</a></li>
+                        <li><a href="">Məlumatlandırma</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="transparent-div">
+        </div>
+    <div id="main">
+        <section id="carousel">
+            <div class="carousel-container">
+                <div class="slides">
+                    <div class="slide slide-1">
+                        <div class="slide-content">
+                            <div class="slide-left">
+                                <h4>
+                                    Portalın geniş imkanlarından istifadə etmək üçün qeydiyyatdan keçin
+                                </h4>
+                                <div class="register-button">
+                                    <a href="">Qeydiyyat</a>
+                                </div>
+                            </div>
+                            <div class="slide-controls">
+                                <div class="next-prev-button">
+                                    <i class='bx bx-chevron-left'></i>
+                                </div>
+                                <span class="slide-counter">1/6</span>
+                                <div class="next-prev-button">
+                                    <i class='bx bx-chevron-right'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide-2">
+                        <span class="blur-bg"></span>
+                        <div class="slide-content">
+                            <div class="slide-left">
+                                <div class="village-button">
+                                    <a href="">Ağsu Rayon İcra Hakimiyyəti</a>
+                                </div>
+                                <h4>
+                                    Ağsu Rayon İcra Hakimiyyətində növbəti vətəndaş qəbulu keçirilib
+                                </h4>
+                                <span class="carousel-date">
+                                    <i class='bx bxs-calendar' style='color:#ffffff'  ></i>
+                                     02.05.2023
+                                </span>
+                            </div>
+                            <div class="slide-controls">
+                                <div class="next-prev-button">
+                                    <i class='bx bx-chevron-left'></i>
+                                </div>
+                                <span class="slide-counter">2/6</span>
+                                <div class="next-prev-button">
+                                    <i class='bx bx-chevron-right'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide-3">
+                        <span class="blur-bg"></span>
+                        <div class="slide-content">
+                            <div class="slide-left">
+                                <div class="village-button">
+                                    <a href="">Mingəçevir Şəhər İcra Hakimiyyəti</a>
+                                </div>
+                                <h4>
+                                    Ulu öndər Heydər Əliyevin 100 illik yubileyi ilə bağlı olaraq “AzərEnerji”, Mingəçevirdəki “Azərbaycan” İES-də    geniş tədbir keçirib.
+                                </h4>
+                                <span class="carousel-date">
+                                    <i class='bx bxs-calendar' style='color:#ffffff'  ></i>
+                                    02.05.2023 
+                                </span>
+                            </div>
+                            <div class="slide-controls">
+                                <div class="next-prev-button">
+                                    <i class='bx bx-chevron-left'></i>
+                                </div>
+                                <span class="slide-counter">3/6</span>
+                                <div class="next-prev-button">
+                                    <i class='bx bx-chevron-right'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide-4">
+                        <span class="blur-bg"></span>
+                        <div class="slide-content">
+                            <div class="slide-left">
+                                <div class="village-button">
+                                    <a href="">Mingəçevir Şəhər İcra Hakimiyyəti</a>
+                                </div>
+                                <h4>
+                                    Ulu öndər Heydər Əliyevin anadan olmasının 100 illiyinə həsr olunmuş  “Azərbaycanın Dövlət Müstəqilliyi əbədidir, sarsılmazdır, dönməzdir” mövzusunda konfrans keçirilmişdir.
+                                </h4>
+                                <span class="carousel-date">
+                                    <i class='bx bxs-calendar' style='color:#ffffff'  ></i>
+                                    02.05.2023 
+                                </span>
+                            </div>
+                            <div class="slide-controls">
+                                <div class="next-prev-button">
+                                    <i class='bx bx-chevron-left'></i>
+                                </div>
+                                <span class="slide-counter">4/6</span>
+                                <div class="next-prev-button">
+                                    <i class='bx bx-chevron-right'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide-5">
+                        <span class="blur-bg"></span>
+                        <div class="slide-content">
+                            <div class="slide-left">
+                                <div class="village-button">
+                                    <a href="">Yasamal Rayon İcra Hakimiyyəti</a>
+                                </div>
+                                <h4>
+                                    Ulu Öndərin 100 illiyi Yasamal rayonunda silsilə tədbirlərlə geniş qeyd olunur
+                                </h4>
+                                <span class="carousel-date">
+                                    <i class='bx bxs-calendar' style='color:#ffffff'  ></i>
+                                    02.05.2023 
+                                </span>
+                            </div>
+                            <div class="slide-controls">
+                                <div class="next-prev-button">
+                                    <i class='bx bx-chevron-left'></i>
+                                </div>
+                                <span class="slide-counter">5/6</span>
+                                <div class="next-prev-button">
+                                    <i class='bx bx-chevron-right'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide-6">
+                        <span class="blur-bg"></span>
+                        <div class="slide-content">
+                            <div class="slide-left">
+                                <div class="village-button">
+                                    <a href="">Mingəçevir Şəhər İcra Hakimiyyəti</a>
+                                </div>
+                                <h4>
+                                    "Azərbaycanın dövlət müstəqilliyi əbədidir, sarsılmazdır, dönməzdir!"  mövzusunda konfrans keçirilmişdir.  
+                                </h4>
+                                <span class="carousel-date">
+                                    <i class='bx bxs-calendar' style='color:#ffffff'  ></i>
+                                    02.05.2023 
+                                </span>
+                            </div>
+                            <div class="slide-controls">
+                                <div class="next-prev-button">
+                                    <i class='bx bx-chevron-left'></i>
+                                </div>
+                                <span class="slide-counter">6/6</span>
+                                <div class="next-prev-button">
+                                    <i class='bx bx-chevron-right'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-controls-real">
+                    <div class="next-prev-button prev">
+                        <i class='bx bx-chevron-left'></i>
+                    </div>
+                    <div class="next-prev-button next">
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="directions">
+            <div class="directions">
+                <div class="row">
+                    <div class="col">
+                        <div class="icon-box" style="border: 1.6px solid #ee347e;">
+                            <i class='bx bx-group' style='color:#ee347e'  ></i>
+                        </div>
+                        <h5 class="title-sm mt-4">Vətəndaş qəbulu
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </h5>
+                        <p>
+                            Vətəndaş qəbulunun elektron müraciət keçidi
+                        </p>
+                    </div>
+                    <div class="col">
+                        <div class="icon-box" style="border: 1.6px solid #3971f9;">
+                            <i class='bx bx-heart-circle' style='color:#3971f9'  ></i>
+                        </div>
+                        <h5 class="title-sm mt-4">Xidmətlər 
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </h5>
+                        <p>
+                            İcra hakimiyyəti tərəfindən göstərilən elektron xidmətlərə keçid
+                        </p>
+                    </div>
+                    <div class="col">
+                        <div class="icon-box" style="border: 1.6px solid #f67e27;">
+                            <i class='bx bxs-user-plus' style='color:#f67e27'  ></i>
+                        </div>
+                        <h5 class="title-sm mt-4">E-iştirakçılıq 
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </h5>
+                        <p>
+                            Yerli icra hakimiyyəti orqanı və vətəndaşlar tərəfindən sorğulara keçid
+                        </p>
+                    </div>
+                    <div class="col">
+                        <div class="icon-box" style="border: 1.6px solid #2ec18b;">
+                            <i class='bx bxs-info-circle' style='color:#2ec18b'  ></i>
+                        </div>
+                        <h5 class="title-sm mt-4">Məlumatlandırma 
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </h5>
+                        <p>
+                            Yerli icra hakimiyyəti tərəfindən görülən işlər haqqında məlumatlandırmaya keçid
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <div class="services">
+                <h4>Populyar xidmətlər</h4>
+                <div class="row">
+                    <div class="col">
+                        <i class='bx bxs-info-circle' style='color:#3971f9'  ></i>
+                        <p>
+                            Vətəndaşlara ailə vəziyyətini təsdiq edən arayışlar və digər arayışların verilməsi
+                        </p>
+                    </div>
+                    <div class="col">
+                        <i class='bx bxs-building' style='color:#2ec18b'></i>
+                        <p>
+                            Yaşayış sahəsinə ehtiyac olan qismində vətəndaşların uçota alınması
+                        </p>
+                    </div>
+                    <div class="col">
+                        <i class='bx bxs-buildings' style='color:#ee347e' ></i>
+                        <p>
+                            Uşağın adının və soyadının dəyişdirilməsinə icazə verilməsi
+                        </p>
+                    </div>
+                    <div class="col">
+                        <i class='bx bxs-user-check' style='color:#f67e27'></i>
+                        <p>
+                            Yetkinlik yaşına çatmayan şəxsin mülkiyyətində olan daşınar və daşınmaz əmlakın üzərində notarial hərəkətlərin aparılmasına dair razılığın verilməsi
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="statistics">
+            <div class="statistics">
+                <h4>Statistika</h4>
+                <div class="row">
+                    <div class="col">
+                        <div class="icon-box">
+                            <i class='bx bxs-user-check' style='color:#b0b7c3'  ></i>
+                        </div>
+                        <div class="statistics-info">
+                            <h5 class="title-sm mt-4">
+                                İstifadəçi sayı
+                            </h5>
+                            <p>
+                                202576
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="icon-box">
+                            <i class='bx bxs-bank' style='color:#b0b7c3'></i>
+                        </div>
+                        <div class="statistics-info">
+                            <h5 class="title-sm mt-4">
+                                Qurum sayı
+                            </h5>
+                            <p>77</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="icon-box">
+                            <i class='bx bx-support' style='color:#b0b7c3'></i>
+                        </div>
+                        <div class="statistics-info">
+                            <h5 class="title-sm mt-4">
+                                Müraciət sayı
+                            </h5>
+                            <p>126898</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="card-carousel">
+            <div class="card-carousel-scroll">
+                <div class="cards">
+                    <div class="card">
+                        <a href="" class="card-link">
+                            <div class="card-link-inside">
+                                <img src="img/logo/card1.svg" alt="" class="card-img">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="" class="card-link">
+                            <div class="card-link-inside">
+                                <img src="img/logo/card2.svg" alt="" class="card-img">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="" class="card-link">
+                            <div class="card-link-inside">
+                                <img src="img/logo/card3.svg" alt="" class="card-img">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="" class="card-link">
+                            <div class="card-link-inside">
+                                <img src="img/logo/iria.png" alt="" class="card-img">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="" class="card-link">
+                            <div class="card-link-inside">
+                                <img src="img/logo/card5.svg" alt="" class="card-img">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="" class="card-link">
+                            <div class="card-link-inside">
+                                <img src="img/logo/card6.svg" alt="" class="card-img">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <span class="card-carousel-prev-next card-prev">
+                <i class='bx bx-chevron-left' style='color:#222222'></i>
+            </span>
+            <span href="" class="card-carousel-prev-next card-next">
+                <i class='bx bx-chevron-right' style='color:#222222' ></i>
+            </span>
+        </section>
+        <footer>
+            <div class="footer-top">
+                <ul class="footer-nav">
+                    <li><a href="about.html">Haqqımızda</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="">Təlimatlandırma</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <img src="img/logo/mincom_logo_az.svg" alt="">
+                </div>
+                <p>Bütün hüquqlar qorunur © 2023</p>
+                <div class="footer-bottom-right">
+                    <img src="img/logo/iria.png" alt="" class="footer-bottom-right-img">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/cards.js"></script>
+    <script src="js/accordion.js"></script>
+    
+
+</body>
+</html>
